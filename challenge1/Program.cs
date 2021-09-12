@@ -6,7 +6,7 @@ namespace challenge1
     {
         static void Main(string[] args)
         {
-            int a = 3; int b = 5; //dummy values
+            int a = 3, b = 5; //dummy values
             Console.WriteLine("Initial values: a = {0}, b = {1}", a, b);
 
             a = a + b; //a = (a+b)

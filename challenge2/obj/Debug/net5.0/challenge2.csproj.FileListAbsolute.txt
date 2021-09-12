@@ -1,0 +1,16 @@
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.csproj.AssemblyReference.cache
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.AssemblyInfoInputs.cache
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.AssemblyInfo.cs
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.csproj.CoreCompileInputs.cache
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.exe
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.deps.json
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.runtimeconfig.json
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.runtimeconfig.dev.json
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.dll
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\ref\challenge2.dll
+C:\Users\roben\desafio-murano\desafio\challenge2\bin\Debug\net5.0\challenge2.pdb
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.dll
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\ref\challenge2.dll
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.pdb
+C:\Users\roben\desafio-murano\desafio\challenge2\obj\Debug\net5.0\challenge2.genruntimeconfig.cache
