@@ -1,0 +1,152 @@
+#:kivy 1.11.1
+
+<MyGrid>:
+
+    dre: dre
+    nome: nome
+    curso: curso
+    genero: genero
+    nascimento: nascimento
+    altura: altura
+    peso: peso
+    cra: cra
+    creditos: creditos
+    renda: renda
+    status: status
+    count: count
+    cra_medio: cra_medio
+    renda_media: renda_media
+    imc_medio: imc_medio
+
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+        padding: 3
+        spacing: 1
+
+        Label:
+            size_hint: (0.15,0.15)
+            text: "Student Manager System"
+            font_size: "20pt"
+
+        Label:
+            size_hint: (0.15,0.15)
+            text: "Data Update Entry"
+            font_size: "15pt"
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "DRE: "
+
+            TextInput:
+                id: dre
+                multinline:False
+
+            Label:
+                text: "Curso: "
+
+            TextInput:
+                id: curso
+                multinline:False
+
+            Label:
+                text: "Nome: "
+
+            TextInput:
+                id: nome
+                multinline:False
+
+            Label:
+                text: "Gênero: "
+
+            TextInput:
+                id: genero
+                multinline:False
+
+            Label:
+                text: "Data de Nascimento: "
+
+            TextInput:
+                id: nascimento
+                multinline:False
+
+            Label:
+                text: "Altura: "
+
+            TextInput:
+                id: altura
+                multinline:False
+
+            Label:
+                text: "Peso: "
+
+            TextInput:
+                id: peso
+                multinline:False
+
+            Label:
+                text: "CRA: "
+
+            TextInput:
+                id: cra
+                multinline:False
+
+            Label:
+                text: "Créditos Obtidos: "
+
+            TextInput:
+                id: creditos
+                multinline:False
+
+            Label:
+                text: "Renda: "
+
+            TextInput:
+                id: renda
+                multinline:False
+
+        Label:
+            id: status
+            size_hint: (0.15,0.15)
+            text: "Status: Started"
+            font_size: "10pt"
+
+        Button:
+            id: submit
+            size_hint: (0.15,0.15)
+            text:"Submit"
+            on_press: root.update()
+
+        Label:
+            size_hint: (0.15,0.15)
+            text: "Statistics"
+            font_size: "15pt"
+
+        Label:
+            id: count
+            size_hint: (0.08,0.08)
+            text: "Número de alunos: "
+            font_size: "10pt"
+        Label:
+            id: cra_medio
+            size_hint: (0.08,0.08)
+            text: "CRA médio: "
+            font_size: "10pt"
+        Label:
+            id: renda_media
+            size_hint: (0.08,0.08)
+            text: "Renda média: "
+            font_size: "10pt"
+        Label:
+            id: imc_medio
+            size_hint: (0.08,0.08)
+            text: "Índice de massa corporal médio: "
+            font_size: "10pt"
+
+        Button:
+            id: refresh
+            size_hint: (0.15,0.15)
+            text:"Refresh Statistics"
+            on_press: root.refresh_stats()
